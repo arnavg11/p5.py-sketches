@@ -29,6 +29,8 @@ def setup():
     # bg.clear()
 def draw():
     fill(55,20)
+    strokeWeight(2)
+    line(0,400,width,400)
     strokeWeight(5)
     rect(0,0,width,height)
     dels = []
